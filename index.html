@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>GifTastic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- External Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<!-- External JS -->
+	<script type="text/javascript" src="./assets/javascript/app.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<h1>Giphy Video Games</h1>
+	<!-- Existing and created buttons -->
+	<div class="container">
+		<div id="buttonDiv"></div>
+	</div>
+	<!-- Search bar to create more buttons and 10 related Gifs on button click -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8" id="gifDiv"></div>
+			<div class="col-md-4" id="searchDiv">
+				<form id="game-form">
+					<label for="game-input" style="margin-right: 5px;">Input Video Game:  </label>
+					<input type="text" id="game-input">
+					<br>
+					<input id="add-game" type="submit" value="Generate GIF Button" class="btn btn-danger" style="margin-left: 0px;">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
